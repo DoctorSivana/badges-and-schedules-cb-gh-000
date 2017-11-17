@@ -7,7 +7,7 @@ end
 def batch_badge_creator(attendees)
   array = []
   attendees.each do |name|
-    arr << "Hello, my name is #{name}."
+    array << "Hello, my name is #{name}."
   end
   return array;
 end
@@ -16,7 +16,7 @@ def assign_rooms(attendees)
   array = []
   i = 1;
   attendees.each do |name|
-    array.push("Hello, #{name}! You'll be assigned to room #{i}!")
+    array << "Hello, #{name}! You'll be assigned to room #{i}!"
     i += i + 1;
   end
   return array;
