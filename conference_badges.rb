@@ -17,3 +17,10 @@ def assign_rooms(array)
   end
 end
 
+def printer(array)
+  batch_badge_creator.each do |components|
+    puts "#{components}"
+    
+  end
+  
+end
